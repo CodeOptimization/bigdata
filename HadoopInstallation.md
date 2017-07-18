@@ -1,7 +1,5 @@
-To verify Hadoop releases using GPG:
+To perform a quick check using SHA-256:
 
-    Download the release hadoop-X.Y.Z-src.tar.gz from a mirror site.
-    Download the signature file hadoop-X.Y.Z-src.tar.gz.asc from Apache.
-    Download the Hadoop KEYS file.
-    gpg --import KEYS
-    gpg --verify hadoop-X.Y.Z-src.tar.gz.asc
+    Download the release hadoop-X.Y.Z-src.tar.gz from a [mirror site](http://www.apache.org/dyn/closer.cgi/hadoop/common).
+    Download the checksum hadoop-X.Y.Z-src.tar.gz.mds from [Apache](https://dist.apache.org/repos/dist/release/hadoop/common/).
+    shasum -a 256 hadoop-X.Y.Z-src.tar.gz
