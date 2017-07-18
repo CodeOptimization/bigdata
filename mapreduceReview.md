@@ -40,5 +40,5 @@ Counter is a facility for MapReduce applications to report its statistics. Mappe
 
 
 Reference:
-https://hadoop.apache.org/docs/r2.8.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#InputSplit
-https://stackoverflow.com/questions/25432598/what-is-the-mapper-of-reducer-setup-used-for
+  * https://hadoop.apache.org/docs/r2.8.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#InputSplit
+  * https://stackoverflow.com/questions/25432598/what-is-the-mapper-of-reducer-setup-used-for
