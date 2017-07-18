@@ -36,3 +36,9 @@
 
 ### Counter
 Counter is a facility for MapReduce applications to report its statistics. Mapper and Reducer implementations can use the Counter to report statistics. Hadoop MapReduce comes bundled with a library of generally useful mappers, reducers, and partitioners.
+
+
+
+Reference:
+https://hadoop.apache.org/docs/r2.8.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#InputSplit
+https://stackoverflow.com/questions/25432598/what-is-the-mapper-of-reducer-setup-used-for
