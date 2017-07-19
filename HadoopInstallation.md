@@ -9,10 +9,7 @@
 2. Edit your *~/.bashrc* filr for convenience.
   > format:
   > export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.102-4.b14.el7.x86_64/jre"
-  
   > export HADOOP_HOME="/home/patrick/software/hadoop/hadoop-2.8.0"
-
   > export PATH="$PATH:$JAVA_HOME/bin"
-  
   > export PATH="$PATH:$HADOOP_HOME/bin"
 
