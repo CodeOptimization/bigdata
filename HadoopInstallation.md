@@ -10,16 +10,15 @@
   > 3. alternatives --install /usr/bin/java java /user_installed/jdk1.8.0_131/bin/java 2 (*Installing JDK*).
   > 4. sudo alternatives --config java (*Setting the alias pointing to your own JDK*).
   ![alt text](alternative_linux.jpeg)
-  >As you can seem the second one is the default one right now, Then you choose 3.*__
-  
+  > As you can seem the second one is the default one right now, Then you choose 3.
   > 5. You can also run the commands or just set up the ~./bashrc file for the JAVA_HOME. 
   
    ###### Run the commands:
-  >> 1. alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_131/bin/jar 2.
-  >> 2. alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_131/bin/javac 2.
-  >> 3. alternatives --set jar /opt/jdk1.8.0_131/bin/jar.
-  >> 4. alternatives --set javac /opt/jdk1.8.0_131/bin/javac.
-  >> * Editing the ~/.bashrc file: 
+        1. alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_131/bin/jar 2.
+        2. alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_131/bin/javac 2.
+        3. alternatives --set jar /opt/jdk1.8.0_131/bin/jar.
+        4. alternatives --set javac /opt/jdk1.8.0_131/bin/javac.
+        * Editing the ~/.bashrc file: 
   
    ###### format:
         export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.102-4.b14.el7.x86_64/jre"
