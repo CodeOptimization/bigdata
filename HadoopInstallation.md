@@ -18,9 +18,8 @@
         2. alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_131/bin/javac 2.
         3. alternatives --set jar /opt/jdk1.8.0_131/bin/jar.
         4. alternatives --set javac /opt/jdk1.8.0_131/bin/javac.
-        * Editing the ~/.bashrc file: 
   
-   ###### format:
+   ###### Editing the ~/.bashrc file:
         export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.102-4.b14.el7.x86_64/jre"
         export PATH="$PATH:$JAVA_HOME/bin"
 
