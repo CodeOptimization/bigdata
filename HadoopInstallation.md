@@ -13,13 +13,15 @@
   >As you can seem the second one is the default one right now, Then you choose 3.*__
   
   > 5. You can also run the commands or just set up the ~./bashrc file for the JAVA_HOME. 
-      ###### Run the commands:
+  
+   ###### Run the commands:
   >> 1. alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_131/bin/jar 2.
   >> 2. alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_131/bin/javac 2.
   >> 3. alternatives --set jar /opt/jdk1.8.0_131/bin/jar.
   >> 4. alternatives --set javac /opt/jdk1.8.0_131/bin/javac.
   >> * Editing the ~/.bashrc file: 
-      ###### format:
+  
+   ###### format:
         export JAVA_HOME="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.102-4.b14.el7.x86_64/jre"
         export PATH="$PATH:$JAVA_HOME/bin"
 
