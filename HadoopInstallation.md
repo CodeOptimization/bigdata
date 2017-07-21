@@ -8,6 +8,7 @@
   1. wget  --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.tar.gz", this command will down load the file to current folder.
   2. tar xzf jdk-8u131-linux-x64.tar.gz.
   3. alternatives --install /usr/bin/java java /user_installed/jdk1.8.0_131/bin/java 2 (*Installing JDK*).
+  >  It's better for maintaining multiple versions of the software or libraries and easily switch between them by *alternatives*. Your applications are only pointing to the symbolic link, which you can easily switch any time and don't have to go through all the configurations of your applications. I don't know what the 20000 means, but here's the manpage: 
   4. sudo alternatives --config java (*Setting the alias pointing to your own JDK*).
   ![alt text](alternative_linux.jpeg)
         As you can seem the second one is the default one right now, Then you choose 3.
