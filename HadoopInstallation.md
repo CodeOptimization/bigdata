@@ -1,9 +1,6 @@
 # Environment
   CentOS-7-x86_64-DVD-1611 + JDK 1.8 + Hadoop 2.7.3
   
-  ![alt text](https://mir-s3-cdn-cf.behance.net/project_modules/disp/d2be1031126119.5605940d55ff5.jpg)
-
-  
 # Java
   * Show which java are you using
   > run command __*which java*__, this could be alias, then you need __*readlink $(which java)*__
@@ -13,13 +10,7 @@
   > 3. alternatives --install /usr/bin/java java /user_installed/jdk1.8.0_131/bin/java 2 (*Installing JDK*).
   > 4. sudo alternatives --config java (*Setting the alias pointing to your own JDK*).
   >> * The out put will be.
-  >> * There are 3 programs which provide 'java'.
-  >> * Selection   Command.
-  >> *----------------------------------------------- *.
-  >> * 1           java-1.7.0-openjdk.x86_64 (/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.111-2.6.7.8.el7.x86_64/jre/bin/java).
-  >> * *+ 2       java-1.8.0-openjdk.x86_64 (/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.102-4.b14.el7.x86_64/jre/bin/java).
-  >> * 3           /user_installed/jdk1.8.0_131/bin/java.
-  >> * Enter to keep the current selection[+], or type selection number.
+  ![alt text](alternative_Linux.jpeg)
   >> * __*As you can seem the second one is the default one right now, Then you choose 3.*__
   
   > 5. You can also run the command or just set up the ~./bashrc file for the JAVA_HOME.
