@@ -12,3 +12,7 @@
         export HADOOP_HOME="/home/patrick/software/hadoop/hadoop-2.8.0"
         export PATH="$PATH:$JAVA_HOME/bin"
         export PATH="$PATH:$HADOOP_HOME/bin"
+        
+# Developing
+1. IntelliJ: download and unzip the file. Then run "./idea.sh" in the bin folder. One trick is I have cncountered "intellij tartup Error: Unable to detect graphics environment" problem, it was solved by restarting.
+2. 
