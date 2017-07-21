@@ -9,7 +9,7 @@
   > 2. tar xzf jdk-8u131-linux-x64.tar.gz.
   > 3. alternatives --install /usr/bin/java java /user_installed/jdk1.8.0_131/bin/java 2 (*Installing JDK*).
   > 4. sudo alternatives --config java (*Setting the alias pointing to your own JDK*).
-  ![alt text](alternative_Linux.jpeg)
+  ![alt text](alternative_linux.jpeg)
   >As you can seem the second one is the default one right now, Then you choose 3.*__
   
   > 5. You can also run the command or just set up the ~./bashrc file for the JAVA_HOME.
