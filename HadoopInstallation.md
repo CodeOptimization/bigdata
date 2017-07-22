@@ -40,3 +40,17 @@
 # Developing
 1. IntelliJ: download and unzip the file. Then run "./idea.sh" in the bin folder. One trick is I have cncountered "intellij tartup Error: Unable to detect graphics environment" problem, it was solved by restarting.
 2. 
+
+# About CentOS
+## Creat Desktop Shortcuts
+1. Click on Home directory on desktop. The nautilus (file browser) window will open.
+2. Click the Computer tab in the left navigation panel, go to /usr/share/applications. All the applications icons will appear in the right browser window.
+3. Right click desired icon (Firefox, Contacts etc)
+4. After right clicking the icon, select Copy To in the context menu. A Select Destination will open up, pick Desktop folder in the left navigation panel (via left-click)
+5. Left-click the Select button on the bottom right of the window.
+
+
+
+
+## Reference
+  * https://superuser.com/questions/806448/how-to-make-a-desktop-icon-on-centos-7
