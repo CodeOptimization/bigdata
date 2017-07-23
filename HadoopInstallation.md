@@ -43,11 +43,23 @@
 
 # About CentOS
 ## Creat Desktop Shortcuts
+### Regular
 1. Click on Home directory on desktop. The nautilus (file browser) window will open.
 2. Click the Computer tab in the left navigation panel, go to /usr/share/applications. All the applications icons will appear in the right browser window.
 3. Right click desired icon (Firefox, Contacts etc)
 4. After right clicking the icon, select Copy To in the context menu. A Select Destination will open up, pick Desktop folder in the left navigation panel (via left-click)
 5. Left-click the Select button on the bottom right of the window.
+### DIY
+1. Creat XXX.desktop file in _/usr/share/applications_ floder
+2. Update the content as below, for the exapmle of creating the shortcut for IntelliJ IDE.
+
+        [Desktop Entry]
+        Type=Application
+        Terminal=false
+        Exec=/bin/sh /home/xieerqi/intellij/idea-IC-145.597.3/bin/idea.sh
+        Name=Intellij
+        Icon=/home/xieerqi/intellij/idea-IC-145.597.3/bin/idea.png
+3. Copying the _.desktop_ file to _~/Desktop_.
 
 
 
