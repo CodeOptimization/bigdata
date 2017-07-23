@@ -67,3 +67,4 @@
 ## Reference
   * https://superuser.com/questions/806448/how-to-make-a-desktop-icon-on-centos-7
   * https://unix.stackexchange.com/questions/253147/how-to-find-which-version-of-java-in-java-installed-folder
+  * https://askubuntu.com/questions/763507/16-04-intellij-idea-desktop-entry-not-working
