@@ -37,7 +37,8 @@
 ### Counter
 Counter is a facility for MapReduce applications to report its statistics. Mapper and Reducer implementations can use the Counter to report statistics. Hadoop MapReduce comes bundled with a library of generally useful mappers, reducers, and partitioners.
 
-
+### Job
+*__Job__* represents a MapReduce job configuration. Job is typically used to specify the Mapper, combiner (if any), Partitioner, Reducer, InputFormat, OutputFormat implementations.
 
 Reference:
   * https://hadoop.apache.org/docs/r2.8.0/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#InputSplit
