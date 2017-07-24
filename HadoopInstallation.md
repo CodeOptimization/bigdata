@@ -59,7 +59,9 @@
         Exec=/bin/sh /home/xieerqi/intellij/idea-IC-145.597.3/bin/idea.sh
         Name=Intellij
         Icon=/home/xieerqi/intellij/idea-IC-145.597.3/bin/idea.png
-3. Copying the _.desktop_ file to _~/Desktop_.
+3. sudo chmod 644 /usr/share/applications/MyIntelliJ.desktop
+   sudo chown root:root /usr/share/applications/MyIntelliJ.desktop 
+4. Copying the _.desktop_ file to _~/Desktop_.
 
 
 
